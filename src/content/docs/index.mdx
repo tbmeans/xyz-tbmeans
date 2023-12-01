@@ -1,0 +1,34 @@
+---
+title: Tim's docs
+description: Get started building your docs site with Starlight.
+template: splash
+hero:
+  tagline: "This AstroJS theme is so cool: it has a dark mode option!"
+  actions:
+    - text: Example Guide
+      link: /guides/example/
+      icon: right-arrow
+      variant: primary
+    - text: Read the Starlight docs
+      link: https://starlight.astro.build
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Docs contribution to-do list:
+
+<CardGrid stagger>
+	<Card title="Evergreen library software" icon="pencil">
+		Even the docs have 
+		[docs](https://wiki.evergreen-ils.org/doku.php?id=evergreen-docs:dig)
+		to help contributors get started!
+	</Card>
+	<Card title="VideoLAN VLC media player" icon="pencil">
+		When Windows lacked codecs, VLC was there for you, why not
+		[give back](https://www.videolan.org/doc/)?
+	</Card>
+	<Card title="Volunteer opportunity list" icon="pencil">
+		on the [Technical Writing subreddit](https://www.reddit.com/r/technicalwriting/comments/gcfmuh/a_list_of_open_source_projects_with_volunteer/)
+	</Card>
+</CardGrid>
